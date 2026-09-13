@@ -1,0 +1,16 @@
+.DS_Store
+*.exe
+*.out
+*.test
+bin/
+dist/
+coverage.out
+.env
+.env.*
+!.env.example
+# local compiled service binaries
+authentication-service/authApp
+broker-service/brokerApp
+listener-service/listenerApp
+logger-service/loggerApp
+mail-service/mailApp
